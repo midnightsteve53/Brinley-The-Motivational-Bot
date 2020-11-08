@@ -7,6 +7,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+const prefix = "br!";
 client.on('message', msg => {
   if(!message.content.startsWith(prefix) || message.author.bot) return;
   if(message.content.startsWith(prefix + "help"))
@@ -16,19 +17,19 @@ client.on('message', msg => {
         title: "Commands",
         description: "Brinley The Motivational Bot supports the following commands. They are case-sensitive.",
         fields: [{
-            name: "ps!help",
+            name: "br!help",
             value: "Brings up this very message."
           },
           {
-            name: "ps!ping",
+            name: "br!ping",
             value: "Pings the bot to make sure that it is working."
           },
           {
-            name: "ps!motivate",
+            name: "br!motivate",
             value: "Spreads motivation to the user that wrote the message."
           },
           {
-            name: "ps!version",
+            name: "br!version",
             value: "Displays the current version of the bot."
           }
         ]
