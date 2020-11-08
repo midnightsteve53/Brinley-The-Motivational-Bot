@@ -1,0 +1,22 @@
+{
+  "name": "brinley-the-motivational-bot",
+  "version": "1.0.0",
+  "description": "A wonderful Discord bot that helps motivate people in various ways!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midnightsteve53/Brinley-The-Motivational-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midnightsteve53/Brinley-The-Motivational-Bot/issues"
+  },
+  "homepage": "https://github.com/midnightsteve53/Brinley-The-Motivational-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  }
+}
